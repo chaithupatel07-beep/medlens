@@ -192,13 +192,16 @@ app.use('/', apiRouter);
 
 // Serve frontend static build in local standalone production mode (non-Vercel)
 if (!process.env.VERCEL) {
+  const rootDist = path.resolve(__dirname, '../../dist');
   const clientDist = path.resolve(__dirname, '../../client/dist');
-  app.use(express.static(clientDist));
+  const staticDist = fs.existsSync(rootDist) ? rootDist : clientDist;
+
+  app.use(express.static(staticDist));
   app.get('*', (req: Request, res: Response) => {
     if (req.path.startsWith('/api')) {
       return res.status(404).json({ error: 'Endpoint not found' });
     }
-    const indexHtml = path.join(clientDist, 'index.html');
+    const indexHtml = path.join(staticDist, 'index.html');
     res.sendFile(indexHtml, (err) => {
       if (err) {
         res.send('MedLens API is running. Start the frontend with "npm run dev:client".');
