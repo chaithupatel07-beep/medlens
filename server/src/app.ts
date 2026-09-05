@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import multer from 'multer';
 import pdfParse from 'pdf-parse';
 import path from 'path';
+import fs from 'fs';
 import { fileURLToPath } from 'url';
 
 import { GeminiService } from './services/geminiService.js';
