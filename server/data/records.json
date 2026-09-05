@@ -1,0 +1,706 @@
+[
+  {
+    "id": "rec_1788593069207_sduh2",
+    "createdAt": "2026-09-05T07:24:29.209Z",
+    "updatedAt": "2026-09-05T07:27:38.065Z",
+    "patientInfo": {
+      "name": "Robert Miller",
+      "age": 58,
+      "sex": "Male",
+      "symptoms": [
+        "Increased thirst (polydipsia)",
+        "Nocturia (waking 3x/night)",
+        "Intermittent blurry vision"
+      ],
+      "symptomDetails": "Thirst and frequent urination noted for approx 2 months.",
+      "conditions": [],
+      "allergies": [
+        "NKDA (No known drug allergies)"
+      ],
+      "medications": [
+        "Metformin 1000 mg twice daily"
+      ],
+      "notes": "Believes this is just a routine checkup and feels generally okay.",
+      "source": "PATIENT_INTAKE"
+    },
+    "symptoms": [
+      "Increased thirst (polydipsia)",
+      "Nocturia (waking 3x/night)",
+      "Intermittent blurry vision"
+    ],
+    "conditions": [],
+    "allergies": [
+      "NKDA (No known drug allergies)"
+    ],
+    "medications": [
+      "Metformin 1000 mg twice daily"
+    ],
+    "labResults": [
+      {
+        "id": "param_current_report_1",
+        "canonicalName": "Fasting Blood Sugar",
+        "sourceTerm": "Fasting Blood Sugar",
+        "observedValue": 184,
+        "unit": "mg/dL",
+        "referenceRange": {
+          "text": "FBS",
+          "sourceText": "FBS"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Fasting Blood Sugar (FBS)       184      mg/dL    70 - 99",
+        "lineNumber": 9,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_2",
+        "canonicalName": "Glycated Hemoglobin (HbA1c)",
+        "sourceTerm": "Glycated Hemoglobin (HbA1c)",
+        "observedValue": 8.8,
+        "unit": "%",
+        "referenceRange": {
+          "low": 4,
+          "high": 5.6,
+          "text": "4.0 - 5.6",
+          "sourceText": "4.0 - 5.6"
+        },
+        "status": "ABOVE_RANGE",
+        "statusText": "Above reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Glycated Hemoglobin (HbA1c)     8.8      %        4.0 - 5.6",
+        "lineNumber": 10,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_3",
+        "canonicalName": "Serum Creatinine",
+        "sourceTerm": "Serum Creatinine",
+        "observedValue": 1.18,
+        "unit": "mg/dL",
+        "referenceRange": {
+          "text": "Cr",
+          "sourceText": "Cr"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Serum Creatinine (Cr)           1.18     mg/dL    0.70 - 1.30",
+        "lineNumber": 11,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_4",
+        "canonicalName": "Blood Urea Nitrogen",
+        "sourceTerm": "Blood Urea Nitrogen",
+        "observedValue": 19,
+        "unit": "mg/dL",
+        "referenceRange": {
+          "text": "BUN",
+          "sourceText": "BUN"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Blood Urea Nitrogen (BUN)       19       mg/dL    7 - 20",
+        "lineNumber": 12,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_5",
+        "canonicalName": "Estimated GFR",
+        "sourceTerm": "Estimated GFR",
+        "observedValue": 72,
+        "unit": "mL/min/1.73m2",
+        "referenceRange": {
+          "text": "eGFR",
+          "sourceText": "eGFR"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Estimated GFR (eGFR)            72       mL/min/1.73m2  > 60",
+        "lineNumber": 13,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_6",
+        "canonicalName": "Serum Potassium (K+)",
+        "sourceTerm": "Serum Potassium (K+)",
+        "observedValue": 4.4,
+        "unit": "mEq/L",
+        "referenceRange": {
+          "low": 3.5,
+          "high": 5,
+          "text": "3.5 - 5.0",
+          "sourceText": "3.5 - 5.0"
+        },
+        "status": "NORMAL",
+        "statusText": "Within reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Serum Potassium (K+)            4.4      mEq/L    3.5 - 5.0",
+        "lineNumber": 14,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_7",
+        "canonicalName": "Serum Sodium (Na+)",
+        "sourceTerm": "Serum Sodium (Na+)",
+        "observedValue": 138,
+        "unit": "mEq/L",
+        "referenceRange": {
+          "low": 135,
+          "high": 145,
+          "text": "135 - 145",
+          "sourceText": "135 - 145"
+        },
+        "status": "NORMAL",
+        "statusText": "Within reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Serum Sodium (Na+)              138      mEq/L    135 - 145",
+        "lineNumber": 15,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      }
+    ],
+    "additionalObservations": [],
+    "conflicts": [
+      {
+        "id": "conflict_1",
+        "type": "MEDICATION_DISCREPANCY",
+        "severity": "MEDIUM",
+        "title": "Medication without Corresponding Condition: Antidiabetic Therapy",
+        "description": "Patient reports taking antidiabetic medication (e.g. Metformin/Insulin), but no history of Diabetes or Impaired Glucose Tolerance was specified in the intake conditions.",
+        "sourceA": {
+          "origin": "Patient Medications",
+          "text": "Metformin 1000 mg twice daily"
+        },
+        "sourceB": {
+          "origin": "Patient Medical Conditions",
+          "text": "None listed"
+        },
+        "status": "resolved",
+        "resolutionNotes": "Confirmed mild localized contact reaction with patient; latex-free supplies ordered",
+        "resolvedAt": "2026-09-05T07:27:35.191Z",
+        "resolvedBy": "Reviewing Clinician"
+      },
+      {
+        "id": "conflict_2",
+        "type": "LAB_CONDITION_MISMATCH",
+        "severity": "HIGH",
+        "title": "Marked Laboratory Abnormality vs Unreported Condition (HbA1c)",
+        "description": "Laboratory test demonstrates significantly elevated HbA1c (8.8%), while patient intake states no prior history of diabetes. Clarify whether this represents a new finding or undocumented pre-existing condition.",
+        "sourceA": {
+          "origin": "Laboratory Results",
+          "text": "HbA1c: 8.8% (Above reported reference range)"
+        },
+        "sourceB": {
+          "origin": "Patient Intake Conditions",
+          "text": "No chronic conditions listed"
+        },
+        "status": "unresolved"
+      }
+    ],
+    "clarificationQuestions": [
+      {
+        "id": "cq_1",
+        "topic": "Medication Indication",
+        "question": "You noted taking medication without a listed medical condition. What specific health condition was this medication originally prescribed to treat?",
+        "clinicalRationale": "Ensures comprehensive problem list alignment with active pharmacotherapy.",
+        "priority": "MEDIUM"
+      },
+      {
+        "id": "cq_2",
+        "topic": "Symptom Chronology",
+        "question": "Regarding the concern of \"Increased thirst (polydipsia)\", approximately when did this symptom first start, how often does it happen, and has it gotten more severe recently?",
+        "clinicalRationale": "Gathers essential temporal trajectory to contextualize the clinical intake.",
+        "priority": "HIGH"
+      }
+    ],
+    "summary": {
+      "patientOverview": "Patient Robert Miller, 58 y/o Male. Intake records Increased thirst (polydipsia), Nocturia (waking 3x/night), Intermittent blurry vision, no documented prior conditions, taking Metformin 1000 mg twice daily. Total of 7 laboratory parameter(s) evaluated against reported reference ranges.",
+      "keyFindings": [
+        "Glycated Hemoglobin (HbA1c): 8.8 % — Above reported reference range (Reported Range: 4.0 - 5.6)"
+      ],
+      "normalFindings": [
+        "Serum Potassium (K+): 4.4 mEq/L — Within reported reference range",
+        "Serum Sodium (Na+): 138 mEq/L — Within reported reference range"
+      ],
+      "potentialInconsistencies": [
+        "Medication without Corresponding Condition: Antidiabetic Therapy: Patient reports taking antidiabetic medication (e.g. Metformin/Insulin), but no history of Diabetes or Impaired Glucose Tolerance was specified in the intake conditions.",
+        "Marked Laboratory Abnormality vs Unreported Condition (HbA1c): Laboratory test demonstrates significantly elevated HbA1c (8.8%), while patient intake states no prior history of diabetes. Clarify whether this represents a new finding or undocumented pre-existing condition."
+      ],
+      "actionItemsForClinician": [
+        "[Medication Indication] You noted taking medication without a listed medical condition. What specific health condition was this medication originally prescribed to treat?",
+        "[Symptom Chronology] Regarding the concern of \"Increased thirst (polydipsia)\", approximately when did this symptom first start, how often does it happen, and has it gotten more severe recently?"
+      ],
+      "disclaimer": "CLINICAL INFORMATION NOTICE: MedLens is an organization and intelligence assistant designed to support health data review. MedLens DOES NOT provide medical diagnoses, treatment decisions, or medication advice. All information and flags must be independently verified by a licensed healthcare professional."
+    },
+    "longitudinalComparison": [
+      {
+        "canonicalName": "Fasting Blood Sugar",
+        "sourceTerm": "Fasting Blood Sugar",
+        "previousValue": 132,
+        "currentValue": 184,
+        "unit": "mg/dL",
+        "numericDelta": 52,
+        "percentChange": 39.4,
+        "trend": "INCREASED",
+        "previousRange": "FBS",
+        "currentRange": "FBS",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      },
+      {
+        "canonicalName": "Glycated Hemoglobin (HbA1c)",
+        "sourceTerm": "Glycated Hemoglobin (HbA1c)",
+        "previousValue": 7.1,
+        "currentValue": 8.8,
+        "unit": "%",
+        "numericDelta": 1.7,
+        "percentChange": 23.9,
+        "trend": "INCREASED",
+        "previousRange": "4.0 - 5.6",
+        "currentRange": "4.0 - 5.6",
+        "previousStatus": "ABOVE_RANGE",
+        "currentStatus": "ABOVE_RANGE",
+        "clinicalSignificance": "Progressive elevation further above reference range"
+      },
+      {
+        "canonicalName": "Serum Creatinine",
+        "sourceTerm": "Serum Creatinine",
+        "previousValue": 1.05,
+        "currentValue": 1.18,
+        "unit": "mg/dL",
+        "numericDelta": 0.13,
+        "percentChange": 12.4,
+        "trend": "INCREASED",
+        "previousRange": "Cr",
+        "currentRange": "Cr",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      },
+      {
+        "canonicalName": "Estimated GFR",
+        "sourceTerm": "Estimated GFR",
+        "previousValue": 81,
+        "currentValue": 72,
+        "unit": "mL/min/1.73m2",
+        "numericDelta": -9,
+        "percentChange": -11.1,
+        "trend": "DECREASED",
+        "previousRange": "eGFR",
+        "currentRange": "eGFR",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      }
+    ],
+    "rawReports": {
+      "currentReportText": "VALLEY HEALTH DIAGNOSTICS — AMBULATORY CARE LAB\nPatient: Robert Miller | DOB: 22-NOV-1967 | Sex: M\nDate of Collection: 10-FEB-2026\n\nMETABOLIC & RENAL HEALTH PANEL\n------------------------------------------------------------\nParameter                       Observed Unit     Reference Range\n------------------------------------------------------------\nFasting Blood Sugar (FBS)       184      mg/dL    70 - 99\nGlycated Hemoglobin (HbA1c)     8.8      %        4.0 - 5.6\nSerum Creatinine (Cr)           1.18     mg/dL    0.70 - 1.30\nBlood Urea Nitrogen (BUN)       19       mg/dL    7 - 20\nEstimated GFR (eGFR)            72       mL/min/1.73m2  > 60\nSerum Potassium (K+)            4.4      mEq/L    3.5 - 5.0\nSerum Sodium (Na+)              138      mEq/L    135 - 145\n\nFACILITY CLINICAL NOTES:\n- Fasting status at time of phlebotomy: Patient reported having a light coffee with sugar 2 hours prior to draw.\n- Previous chart allergy record (Urgent Care, July 2022): Patient experienced diffuse urticarial rash and facial pruritus following Amoxicillin/Penicillin administration. Chart flagged: PENICILLIN ALLERGY documented.",
+      "previousReportText": "VALLEY HEALTH DIAGNOSTICS — HISTORICAL RECORD\nDate of Collection: 14-JAN-2025\n\nParameter                       Observed Unit     Reference Range\n------------------------------------------------------------\nFasting Blood Sugar (FBS)       132      mg/dL    70 - 99\nGlycated Hemoglobin (HbA1c)     7.1      %        4.0 - 5.6\nSerum Creatinine (Cr)           1.05     mg/dL    0.70 - 1.30\nEstimated GFR (eGFR)            81       mL/min/1.73m2  > 60"
+    },
+    "verification": {
+      "isVerified": false
+    },
+    "auditLog": [
+      {
+        "id": "audit_1788593255194",
+        "timestamp": "2026-09-05T07:27:35.194Z",
+        "fieldModified": "Conflict Status: conflict_1",
+        "previousValue": "unresolved",
+        "newValue": "resolved",
+        "reason": "Confirmed mild localized contact reaction with patient; latex-free supplies ordered",
+        "author": "Attending Reviewer"
+      }
+    ]
+  },
+  {
+    "id": "rec_1788592571719_piy7n",
+    "createdAt": "2026-09-05T07:16:11.727Z",
+    "updatedAt": "2026-09-05T07:21:26.176Z",
+    "patientInfo": {
+      "name": "Jane Doe",
+      "age": 34,
+      "sex": "Female",
+      "symptoms": [
+        "Progressive fatigue",
+        "Post-exertional lightheadedness",
+        "Cold intolerance"
+      ],
+      "symptomDetails": "Fatigue began 4-5 months ago, steadily worsening over past 6 weeks.",
+      "conditions": [
+        "Menorrhagia (heavy menstrual cycles)"
+      ],
+      "allergies": [
+        "No known allergies"
+      ],
+      "medications": [
+        "Daily Multivitamin"
+      ],
+      "notes": "Reports feeling exhausted even after 8 hours of sleep. No prior history of anemia discussed.",
+      "source": "PATIENT_INTAKE"
+    },
+    "symptoms": [
+      "Progressive fatigue",
+      "Post-exertional lightheadedness",
+      "Cold intolerance"
+    ],
+    "conditions": [
+      "Menorrhagia (heavy menstrual cycles)"
+    ],
+    "allergies": [
+      "No known allergies"
+    ],
+    "medications": [
+      "Daily Multivitamin"
+    ],
+    "labResults": [
+      {
+        "id": "param_current_report_1",
+        "canonicalName": "Hemoglobin",
+        "sourceTerm": "Hemoglobin",
+        "observedValue": 10.1,
+        "unit": "g/dL",
+        "referenceRange": {
+          "text": "Hb",
+          "sourceText": "Hb"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Hemoglobin (Hb)                 9.8      g/dL     12.0 - 15.5",
+        "lineNumber": 9,
+        "confidence": "HIGH",
+        "confidenceReason": "Manually verified and modified by clinician",
+        "notes": "",
+        "isEdited": true
+      },
+      {
+        "id": "param_current_report_2",
+        "canonicalName": "Hematocrit",
+        "sourceTerm": "Hematocrit",
+        "observedValue": 30.4,
+        "unit": "%",
+        "referenceRange": {
+          "text": "Hct",
+          "sourceText": "Hct"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Hematocrit (Hct)                30.4     %        36.0 - 46.0",
+        "lineNumber": 10,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_3",
+        "canonicalName": "Red Blood Cell Count",
+        "sourceTerm": "RBC Count",
+        "observedValue": 3.62,
+        "unit": "10^6/uL",
+        "referenceRange": {
+          "low": 4,
+          "high": 5.2,
+          "text": "4.00 - 5.20",
+          "sourceText": "4.00 - 5.20"
+        },
+        "status": "BELOW_RANGE",
+        "statusText": "Below reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "RBC Count                       3.62     10^6/uL  4.00 - 5.20",
+        "lineNumber": 11,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_4",
+        "canonicalName": "Mean Corpuscular Volume",
+        "sourceTerm": "MCV",
+        "observedValue": 74.2,
+        "unit": "fL",
+        "referenceRange": {
+          "low": 80,
+          "high": 100,
+          "text": "80.0 - 100.0",
+          "sourceText": "80.0 - 100.0"
+        },
+        "status": "BELOW_RANGE",
+        "statusText": "Below reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "MCV                             74.2     fL       80.0 - 100.0",
+        "lineNumber": 12,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_5",
+        "canonicalName": "Mean Corpuscular Hemoglobin",
+        "sourceTerm": "MCH",
+        "observedValue": 24.1,
+        "unit": "pg",
+        "referenceRange": {
+          "low": 27,
+          "high": 33,
+          "text": "27.0 - 33.0",
+          "sourceText": "27.0 - 33.0"
+        },
+        "status": "BELOW_RANGE",
+        "statusText": "Below reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "MCH                             24.1     pg       27.0 - 33.0",
+        "lineNumber": 13,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_6",
+        "canonicalName": "MCHC",
+        "sourceTerm": "MCHC",
+        "observedValue": 32.2,
+        "unit": "g/dL",
+        "referenceRange": {
+          "low": 32,
+          "high": 36,
+          "text": "32.0 - 36.0",
+          "sourceText": "32.0 - 36.0"
+        },
+        "status": "NORMAL",
+        "statusText": "Within reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "MCHC                            32.2     g/dL     32.0 - 36.0",
+        "lineNumber": 14,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_7",
+        "canonicalName": "Platelet Count",
+        "sourceTerm": "Platelet Count",
+        "observedValue": 365,
+        "unit": "10^3/uL",
+        "referenceRange": {
+          "text": "PLT",
+          "sourceText": "PLT"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Platelet Count (PLT)            365      10^3/uL  150 - 450",
+        "lineNumber": 15,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_8",
+        "canonicalName": "White Blood Cell Count",
+        "sourceTerm": "White Blood Cell Count",
+        "observedValue": 6.4,
+        "unit": "10^3/uL",
+        "referenceRange": {
+          "text": "WBC",
+          "sourceText": "WBC"
+        },
+        "status": "NO_RANGE_PROVIDED",
+        "statusText": "No reference range in source report",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "White Blood Cell Count (WBC)    6.4      10^3/uL  4.5 - 11.0",
+        "lineNumber": 16,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      },
+      {
+        "id": "param_current_report_9",
+        "canonicalName": "Serum Ferritin",
+        "sourceTerm": "Serum Ferritin",
+        "observedValue": 8.2,
+        "unit": "ng/mL",
+        "referenceRange": {
+          "low": 15,
+          "high": 150,
+          "text": "15.0 - 150.0",
+          "sourceText": "15.0 - 150.0"
+        },
+        "status": "BELOW_RANGE",
+        "statusText": "Below reported reference range",
+        "source": "CURRENT_REPORT",
+        "sourceSnippet": "Serum Ferritin                  8.2      ng/mL    15.0 - 150.0",
+        "lineNumber": 17,
+        "confidence": "HIGH",
+        "confidenceReason": "Exact match with reported reference range"
+      }
+    ],
+    "additionalObservations": [],
+    "conflicts": [],
+    "clarificationQuestions": [
+      {
+        "id": "cq_1",
+        "topic": "Symptom Chronology",
+        "question": "Regarding the concern of \"Progressive fatigue\", approximately when did this symptom first start, how often does it happen, and has it gotten more severe recently?",
+        "clinicalRationale": "Gathers essential temporal trajectory to contextualize the clinical intake.",
+        "priority": "HIGH"
+      },
+      {
+        "id": "cq_2",
+        "topic": "Fatigue / Blood Loss Screen",
+        "question": "Have you noticed any unexpected fatigue, dizziness, shortness of breath on exertion, or any signs of unusual bleeding or dark stools?",
+        "clinicalRationale": "Clarifies whether low hemoglobin is accompanied by acute or chronic clinical indicators.",
+        "priority": "HIGH"
+      }
+    ],
+    "summary": {
+      "patientOverview": "Patient Jane Doe, 34 y/o Female. Intake records Progressive fatigue, Post-exertional lightheadedness, Cold intolerance, Menorrhagia (heavy menstrual cycles), taking Daily Multivitamin. Total of 9 laboratory parameter(s) evaluated against reported reference ranges.",
+      "keyFindings": [
+        "Red Blood Cell Count: 3.62 10^6/uL — Below reported reference range (Reported Range: 4.00 - 5.20)",
+        "Mean Corpuscular Volume: 74.2 fL — Below reported reference range (Reported Range: 80.0 - 100.0)",
+        "Mean Corpuscular Hemoglobin: 24.1 pg — Below reported reference range (Reported Range: 27.0 - 33.0)",
+        "Serum Ferritin: 8.2 ng/mL — Below reported reference range (Reported Range: 15.0 - 150.0)"
+      ],
+      "normalFindings": [
+        "MCHC: 32.2 g/dL — Within reported reference range"
+      ],
+      "potentialInconsistencies": [
+        "No contradictions identified between intake form and submitted reports."
+      ],
+      "actionItemsForClinician": [
+        "[Symptom Chronology] Regarding the concern of \"Progressive fatigue\", approximately when did this symptom first start, how often does it happen, and has it gotten more severe recently?",
+        "[Fatigue / Blood Loss Screen] Have you noticed any unexpected fatigue, dizziness, shortness of breath on exertion, or any signs of unusual bleeding or dark stools?"
+      ],
+      "disclaimer": "CLINICAL INFORMATION NOTICE: MedLens is an organization and intelligence assistant designed to support health data review. MedLens DOES NOT provide medical diagnoses, treatment decisions, or medication advice. All information and flags must be independently verified by a licensed healthcare professional."
+    },
+    "longitudinalComparison": [
+      {
+        "canonicalName": "Hemoglobin",
+        "sourceTerm": "Hemoglobin",
+        "previousValue": 11.4,
+        "currentValue": 9.8,
+        "unit": "g/dL",
+        "numericDelta": -1.6,
+        "percentChange": -14,
+        "trend": "DECREASED",
+        "previousRange": "Hb",
+        "currentRange": "Hb",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      },
+      {
+        "canonicalName": "Hematocrit",
+        "sourceTerm": "Hematocrit",
+        "previousValue": 34.8,
+        "currentValue": 30.4,
+        "unit": "%",
+        "numericDelta": -4.4,
+        "percentChange": -12.6,
+        "trend": "DECREASED",
+        "previousRange": "Hct",
+        "currentRange": "Hct",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      },
+      {
+        "canonicalName": "Red Blood Cell Count",
+        "sourceTerm": "RBC Count",
+        "previousValue": 4.1,
+        "currentValue": 3.62,
+        "unit": "10^6/uL",
+        "numericDelta": -0.48,
+        "percentChange": -11.7,
+        "trend": "DECREASED",
+        "previousRange": "4.00 - 5.20",
+        "currentRange": "4.00 - 5.20",
+        "previousStatus": "NORMAL",
+        "currentStatus": "BELOW_RANGE",
+        "clinicalSignificance": "New deficit: Decreased below reported reference range"
+      },
+      {
+        "canonicalName": "Mean Corpuscular Volume",
+        "sourceTerm": "MCV",
+        "previousValue": 84.5,
+        "currentValue": 74.2,
+        "unit": "fL",
+        "numericDelta": -10.3,
+        "percentChange": -12.2,
+        "trend": "DECREASED",
+        "previousRange": "80.0 - 100.0",
+        "currentRange": "80.0 - 100.0",
+        "previousStatus": "NORMAL",
+        "currentStatus": "BELOW_RANGE",
+        "clinicalSignificance": "New deficit: Decreased below reported reference range"
+      },
+      {
+        "canonicalName": "Platelet Count",
+        "sourceTerm": "Platelet Count",
+        "previousValue": 310,
+        "currentValue": 365,
+        "unit": "10^3/uL",
+        "numericDelta": 55,
+        "percentChange": 17.7,
+        "trend": "INCREASED",
+        "previousRange": "PLT",
+        "currentRange": "PLT",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      },
+      {
+        "canonicalName": "White Blood Cell Count",
+        "sourceTerm": "White Blood Cell Count",
+        "previousValue": 7.1,
+        "currentValue": 6.4,
+        "unit": "10^3/uL",
+        "numericDelta": -0.7,
+        "percentChange": -9.9,
+        "trend": "DECREASED",
+        "previousRange": "WBC",
+        "currentRange": "WBC",
+        "previousStatus": "NO_RANGE_PROVIDED",
+        "currentStatus": "NO_RANGE_PROVIDED",
+        "clinicalSignificance": "Observed interval change"
+      },
+      {
+        "canonicalName": "Serum Ferritin",
+        "sourceTerm": "Serum Ferritin",
+        "previousValue": 24.5,
+        "currentValue": 8.2,
+        "unit": "ng/mL",
+        "numericDelta": -16.3,
+        "percentChange": -66.5,
+        "trend": "DECREASED",
+        "previousRange": "15.0 - 150.0",
+        "currentRange": "15.0 - 150.0",
+        "previousStatus": "NORMAL",
+        "currentStatus": "BELOW_RANGE",
+        "clinicalSignificance": "New deficit: Decreased below reported reference range"
+      }
+    ],
+    "rawReports": {
+      "currentReportText": "METROPOLITAN GENERAL HOSPITAL — CLINICAL LABORATORY\nPatient: Jane Doe | DOB: 14-MAY-1992 | Sex: F\nSpecimen: Whole Blood EDTA & Serum | Date Collected: 01-FEB-2026\n\nCOMPLETE BLOOD COUNT (CBC) & IRON PANEL\n------------------------------------------------------------\nTest / Parameter                Result   Unit     Reference Range\n------------------------------------------------------------\nHemoglobin (Hb)                 9.8      g/dL     12.0 - 15.5\nHematocrit (Hct)                30.4     %        36.0 - 46.0\nRBC Count                       3.62     10^6/uL  4.00 - 5.20\nMCV                             74.2     fL       80.0 - 100.0\nMCH                             24.1     pg       27.0 - 33.0\nMCHC                            32.2     g/dL     32.0 - 36.0\nPlatelet Count (PLT)            365      10^3/uL  150 - 450\nWhite Blood Cell Count (WBC)    6.4      10^3/uL  4.5 - 11.0\nSerum Ferritin                  8.2      ng/mL    15.0 - 150.0\n\nCLINICAL SPECIMEN OBSERVATIONS:\n- Microcytosis and mild hypochromia confirmed on peripheral blood smear.\n- Note from phlebotomist: Patient developed mild erythematous contact rash at tourniquet site; suspected mild latex sensitivity.",
+      "previousReportText": "METROPOLITAN GENERAL HOSPITAL — ARCHIVED LABORATORY RECORD\nPatient: Jane Doe | Date Collected: 15-AUG-2025\n\nROUTINE PRE-EMPLOYMENT HEALTH PANEL\n------------------------------------------------------------\nHemoglobin (Hb)                 11.4     g/dL     12.0 - 15.5\nHematocrit (Hct)                34.8     %        36.0 - 46.0\nRBC Count                       4.10     10^6/uL  4.00 - 5.20\nMCV                             84.5     fL       80.0 - 100.0\nPlatelet Count (PLT)            310      10^3/uL  150 - 450\nWhite Blood Cell Count (WBC)    7.1      10^3/uL  4.5 - 11.0\nSerum Ferritin                  24.5     ng/mL    15.0 - 150.0"
+    },
+    "verification": {
+      "isVerified": false
+    },
+    "auditLog": [
+      {
+        "id": "audit_1788592885009",
+        "timestamp": "2026-09-05T07:21:25.010Z",
+        "fieldModified": "Lab Parameter: Hemoglobin",
+        "previousValue": "9.8 g/dL",
+        "newValue": "10.1 g/dL",
+        "reason": "Clinician inline adjustment during human review",
+        "author": "Attending Reviewer"
+      }
+    ]
+  }
+]
