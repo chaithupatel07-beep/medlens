@@ -112,7 +112,24 @@ npm test
 ```
 *Executes 32 automated unit and integration tests for terminology normalization, reference range evaluation, conflict detection, and longitudinal comparison.*
 
-### Production Build
+### Production Build & Vercel Deployment
+
+#### Deploying on Vercel (1-Click Ready):
+This repository is pre-configured for **Vercel**:
+- **`vercel.json`**: Configured with `@vercel/node` serverless rewrites and Vite SPA routing.
+- **Serverless API**: `api/index.ts` automatically proxies all `/api/*` requests to the Express clinical engine.
+- **Frontend SPA**: `client/dist` is served statically with client-side history fallback.
+- **Zero-Crash Storage**: `storageService.ts` automatically uses `/tmp` and in-memory cache resilience when running in serverless environments.
+
+To deploy:
+1. Import this repository into [Vercel Dashboard](https://vercel.com/new).
+2. Leave the build settings as default (they are automatically read from [`vercel.json`](vercel.json)):
+   - **Build Command**: `npm run build:client`
+   - **Output Directory**: `client/dist`
+3. *(Optional)* Add `GEMINI_API_KEY` in Vercel Project Settings → Environment Variables.
+4. Click **Deploy**!
+
+#### Local Production Run:
 ```bash
 npm run build
 npm start
